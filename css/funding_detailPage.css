@@ -1,0 +1,168 @@
+body {
+  background-color: #fefefe;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.header__logo {
+  width: 220px;
+  height: 36px;
+  color: #000;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 1vw;
+  margin-left: 3vw;
+}
+.header__search_mode {
+  width: 500px;
+  height: 30px;
+  margin-left: 10vw;
+  margin-top: 1vw;
+}
+input {
+  border: 1px solid black;
+
+  width: 100%;
+  height: 100%;
+  background-color: #f4ebfa;
+  background-image: url(../image/search.png);
+  background-repeat: no-repeat;
+  background-position: 350px center;
+}
+.header__making_project {
+  width: 220px;
+  height: 36px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+  margin-top: 1vw;
+  margin-left: 4vw;
+}
+.header__my_page {
+  width: 220px;
+  height: 36px;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 1vw;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #72128b;
+  list-style-type: none;
+}
+.nav-item {
+  padding: 15px;
+  cursor: pointer;
+}
+.nav-item:hover {
+  transition: transform 0.2s ease-in-out 0.1s;
+  transform: translateX(10px);
+  background-color: purple;
+}
+.nav-item a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.main__ {
+  display: flex;
+  flex-direction: row;
+}
+.main__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__left__picture {
+  background-image: url(../assets/tteok.jpg);
+  background-size: contain;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin-left: 55%;
+  margin-top: 20%;
+}
+.main__left__story {
+  margin-left: 250px;
+  color: #000;
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  white-space: nowrap; /* Ensure text doesn't wrap */
+  margin-top: 20px;
+}
+
+.main__left__story__text {
+  margin-left: 250px;
+  margin-top: 5%;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+}
+.main__left__story__picture1 {
+  background-image: url(../assets/tteok2.jpg);
+  background-size: contain;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width: 290px;
+  height: 200px;
+  margin-left: 55%;
+  margin-top: 20%;
+}
+.main__left__story__picture2 {
+  background-image: url(../assets/tteok3.jpg);
+  background-size: contain;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width: 290px;
+  height: 200px;
+  margin-left: 55%;
+  margin-top: 20%;
+}
+.main__right {
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.main__right__project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  font-size: 25px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  background-color: #f4ebfa;
+}
+.reward1 {
+  font-size: 15px;
+}
+.price {
+  font-size: 20px;
+}
