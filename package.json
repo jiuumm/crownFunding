@@ -2,9 +2,5 @@
   "dependencies": {
     "gh-pages": "^6.1.0"
   },
-  "homepage": "https://jiuumm.github.io/crownFunding/",
-  "scripts": {
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
-  }
+  "homepage": "https://jiuumm.github.io/crownFunding/"
 }
